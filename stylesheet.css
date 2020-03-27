@@ -1,3 +1,72 @@
-.title {
-  color: #02ccba;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+.container h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+}
+
+.signup {
+  background: #239b76;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+
+.facebook {
+  background: #3b5998;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+.twitter {
+  background: #55acee;
+  opacity: 0.8;
+}
+
+.btn-wrapper p {
+  margin: 15px 0;
+}
+
+.btn:hover {
+  opacity: 1;
 }
